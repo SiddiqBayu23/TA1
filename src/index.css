@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gradient1 {
+    background-image: linear-gradient(to right, #FCF299, #FCF299, #779b58);
+}
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+/* form login dan register */
+.wrapper {
+  height: 100vh;
+}
+
+.login,
+.register {
+  width: 60vh;
+  height: min-content;
+  border-radius: 5px;
+  color: black;
+  padding: 20px;
+  background-color: white;
+}
+
+.pengaduan {
+  width: 60vh;
+  height: min-content;
+  border-radius: 5px;
+  color: black;
+  padding: 20px;
+}
+
+.bg-custom {
+  background-color: #779b58;
+}
+
+.bg-custom2 {
+  background-color: #f3f4f6;
+}
+
+.bg-custom3 {
+  background: linear-gradient(287.21deg, #5da61d 0%, #779b58 69.17%);
+}
+
+.bg-custom4 {
+  background-color: #088395;
+}
+
+.height {
+  height: 100vh;
+  width: 100%;
+}
+
+/* Body */
+.body-tentangkami{
+  background-color: #9CC976;
+}
+
+/* Fakta */
+.fakta{
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+.ffg1{
+  background-color:#FCF299;
+}
+
+.ffg2{
+  background-color: #F45A5A;
+}
+
+.ffg3{
+  background-color: #F47F5A;
+}
+
+.fp{
+  background-color:#9CC976 ;
+}
+
+.txtfp1{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.txtfp2{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Fun&Fact */
+
+.project{
+  background-color: #FFFFE0;
+}
+
+.textff{
+  margin-top: 100px;
+}
+
+.textff1{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* atur cointainer baru di fokus project */
+.dc1{
+  background-color:#FCF299;
+}
+
+.dc2{
+  background-color:#F45A5A;
+}
+
+.dc3{
+  background-color: #F47F5A;
+}
+
+.text {
+  text-align: justify;
+}
+
+.color1 {
+  color: #0b6d9a;
+  font-size: 6vh;
+}
+
+.color2 {
+  color: #ffc400;
+  font-size: 6vh;
+}
+
+.color3 {
+  color: #4cadff;
+  font-size: 6vh;
+}
